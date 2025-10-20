@@ -1,0 +1,7 @@
+tenancy_ocid       = "ocid1.tenancy.oc1..xxxx"
+user_ocid          = "ocid1.user.oc1..xxxx"
+fingerprint        = "xx:xx:xx:xx"
+private_key_path   = "~/.oci/oci_api_key.pem"
+region             = "us-ashburn-1"
+compartment_ocid   = "ocid1.compartment.oc1..xxxx"
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
