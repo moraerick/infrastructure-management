@@ -18,3 +18,13 @@ variable "instance_shape" {
 variable "instance_display_name" {
   default = "jenkins-instance"
 }
+
+variable "subnet_ocid" {
+  description = "The OCID of the subnet to attach the instance to."
+  type        = string
+}
+
+variable "ssh_public_key" {
+  type        = string
+  description = "Public SSH key for instance access"
+}
