@@ -12,6 +12,13 @@ Each subfolder is a self-contained project with its own README and deployment in
 |---|---|---|---|
 | [oracle-jenkins-instance](./oracle-jenkins-instance) | Oracle Cloud | Terraform · Shell | Provisions a Jenkins CI server on OCI Always Free tier |
 
+## Related Repositories
+
+| Repository | Stack | Description |
+|---|---|---|
+| [gcp-terraform-modules](https://github.com/moraerick/gcp-terraform-modules) | Terraform · GCP | Reusable Terraform modules for GCP (Cloud Run, Cloud Storage, IAM) |
+| [github-actions-workflows](https://github.com/moraerick/github-actions-workflows) | GitHub Actions · GCP | Reusable CI/CD workflows for GCP deployments and automation |
+
 ---
 
 ## Stack
